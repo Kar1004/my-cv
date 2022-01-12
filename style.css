@@ -13,6 +13,8 @@ header{
 #navbar{
     display: flex;
     flex-direction: row;
+    color: aliceblue;
+    align-items: center;
 
 }
 #name{
@@ -27,6 +29,10 @@ li{
     margin: 10px;
 
 }
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 #r{
     display: flex;
@@ -36,12 +42,87 @@ li{
 #me{
     display:flex;
     flex-direction: row;
-    margin: 75px;
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     position: absolute;
-    left: 400px;
+    left: 350px;
+    align-items: center;
 }
 
 #img-un{
     border-radius: 100px;
-    margin: 3;
+    margin-left: 180px;
+   
+}
+
+/*présentations*/
+
+#colo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#présentation{
+    
+    background-color:#0475ba ;
+    position: absolute;
+    top:320px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    padding: 30px 40px;
+    
+}
+
+#Formation{
+    background-color:#ff0000 ;
+    position: absolute;
+    top:580px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    
+   
+    padding: 30px 40px;
+
+}
+
+#Format-un{
+
+    background-color:#0475ba ;
+    position: absolute;
+    top:900px;
+    width: 95%;
+    display: flex;
+   
+    padding: 30px 40px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#Passions{
+    background-color:#7eceff ;
+    position: absolute;
+    top:1150px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    padding: 30px 40px;
+
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+}
+.liste ul{
+    margin: 50px;
 }
