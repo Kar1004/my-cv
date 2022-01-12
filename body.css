@@ -49,10 +49,24 @@ section{
 #form{
     background-color: blueviolet;
 }
+
+/*passion*/
 #pass{
     background-color: crimson;
 }
 
 footer{
     background-color: darkcyan;
+    height: 100%;
+}
+#ti-deux{
+    margin-left: 40px;
+}
+#rang-f{
+    display: flex;
+    flex-direction: row;
+}
+
+#rang-f img{
+    width: 20px;
 }
