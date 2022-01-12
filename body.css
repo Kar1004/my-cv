@@ -1,0 +1,58 @@
+section{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.range{
+
+    padding: 30px 300px;
+    text-align: justify;
+}
+
+
+
+#pres{
+    background-color: aqua;
+    
+}
+
+#pres li{
+    list-style-type: square;
+}
+
+/*expérience*/
+#exp{
+    background-color: white;
+}
+#ti-un{
+    margin-left: 55px;
+}
+
+#gras{
+   font-weight: bolder;
+}
+#exp li{
+    margin: 20px;
+}
+
+.range-d{
+    display: flex;
+    flex-direction: row;
+}
+.vide{
+    color: white;
+}
+
+/*formation*/
+#form{
+    background-color: blueviolet;
+}
+#pass{
+    background-color: crimson;
+}
+
+footer{
+    background-color: darkcyan;
+}
