@@ -15,12 +15,33 @@ header{
     flex-direction: row;
 
 }
-.name{
-    margin:0;
+#name{
+    margin-left:0;
+    font-weight: bold;
+    font-size:20px;
+
 }
 
 li{
     list-style-type: none;
     margin: 10px;
 
+}
+
+#r{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#me{
+    display:flex;
+    flex-direction: row;
+    margin: 75px;
+    position: absolute;
+    left: 400px;
+}
+
+#img-un{
+    border-radius: 100px;
+    margin: 3;
 }
