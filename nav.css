@@ -62,6 +62,11 @@ a{
 }
 
 
+#rang p{
+       color: #0475ba;
+       font-weight:bold ;
+}
+
 #img-un{
     border-radius: 150px;
     margin-right: 200px;    
