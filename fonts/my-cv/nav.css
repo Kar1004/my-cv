@@ -110,11 +110,6 @@ a{
 
         }
 
-        #navbar {
-
-            display: none;
-        }
-
         nav{
             width: 500px;
 
@@ -127,7 +122,8 @@ a{
 
          section #me{
 
-               display: block;
+               display: flex;
+               flex-direction: column;
                width: 100px;
                
         }
